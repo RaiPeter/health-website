@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+header{
+    height: 4.5rem;
+    display: flex;
+        justify-content: space-between;
+    opacity: 0.9;
+    box-shadow: 1px 1px 3px gray;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+header img{
+    height: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+}
+header li{
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    margin-right: 4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(73,88,155);
+    
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(73,88,155);
+}
+.nav li{
+    margin-left: 1rem;
+    border-top: 1px solid rgb(73,88,155);
+    padding: 0.8rem 1.5rem;
+}
+.nav li:hover{
+    border-top: 3px solid rgb(73,88,155);
+    color: rgb(66, 81, 146);
+}
+
+.top-head{
+    position: relative;
+    height: 80vh;
+    display: flex;
+    /* background-color: gray; */
+}
+.top-head video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    position: relative;    
+    z-index: 0;
+}
+.top-head-info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 40rem;
+    margin-left: 8.4rem;
+    margin-top: 6rem;
+    z-index: 1;
+color: white;
+}
+.top-head-info .first-text{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.top-head-info .second-text{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+.top-head-info .contact{
+    height: 3rem;
+    width: 15rem;
+    font-size: 2rem;
+    background-color: rgb(73,88,155);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 1rem 0.5rem; */
+    border-radius: 0.5rem;
+}
+
+/* after video */
+.first-body{
+    color:rgb(49,59,103);
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.first-body .first-para{
+    font-size:2.5rem ;
+    margin-left: 8.4rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.first-body .second-para{
+    font-size:1rem ;
+    margin-left: 8.4rem;
+}
+/* Second */
+.second-body{
+    color:rgb(49,59,103);
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255,223,213);
+}
+.second-body-info{
+    /* margin-top: 10px; */
+    height: 100%;
+    width: 60%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.second-body-info .watch{
+    background-color: white;
+    /* padding: 1rem 1rem; */
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.second-body-info svg{
+    height: 8rem;
+    width: 8rem;
+    padding: 1.5rem 1.5rem;
+    /* */
+}
+.second-body-info .first-para{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.second-body-info .second-para{
+    font-size: 2;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* third */
+.third-body{
+    color:rgb(49,59,103);
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(209,212,228);
+}
+.third-body-info{
+    /* margin-top: 10px; */
+    height: 100%;
+    width: 60%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.third-body-info .man{
+    background-color: white;
+    /* padding: 1rem 1rem; */
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.third-body-info svg{
+    height: 8rem;
+    width: 8rem;
+    padding: 1.5rem 1.5rem;
+    /* */
+}
+.third-body-info .first-para{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.third-body-info .second-para{
+    font-size: 2;
+    line-height: 30px;
+    text-align: center;
+}
+/* fourth */
+.fourth-body{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(139,148,188);
+    display: flex;
+    justify-content: center;
+}
+.fourth-body-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 60%;
+}
+.fourth-body-info .first-para{
+    font-size: 2rem;
+    color: rgb(255,201,185);
+}
+.fourth-body-info .contact{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 12rem;
+    background-color: rgb(73,88,155);
+}
+
+/* fifth */
+.fifth-body{
+    height: 23rem;
+    width: 100%;
+    display: flex;
+}
+.fifth-body-one, .fifth-body-two,.fifth-body-three{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+}
+.fifth-body-one{
+    background-color: rgb(232,125,150);
+}
+.fifth-body-two{
+    background-color: rgb(156,127,186);
+}
+.first-body-three{
+    background-color: rgb(237,237,237);
+}
+.fifth-body-one-info{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fifth-body-one-info svg{
+    height: 100px;
+    color: white;
+}
+.fifth-body-one-info .first-para{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fifth-body-two-info{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fifth-body-two-info svg{
+    height: 100px;
+    color: white;
+    /* background-color: white; */
+}
+.fifth-body-two-info .first-para{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+     color:rgb(49,59,103);
+}
+
+.fifth-body-three-info{
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fifth-body-three-info svg{
+    height: 100px;
+    color: white;
+}
+.fifth-body-three-info .first-para{
+    font-size: 1.5rem;
+    color:rgb(49,59,103);
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sixth-body{
+    height: 32rem;
+    width: 100%;
+    background-color: rgb(255,228,220);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-para{
+    height: 3rem;
+    width: 80%;
+    font-size: 2rem;
+    color: rgb(69,68,68);
+    margin-left: 10rem;;
+}
+.sixth-body-boxes{
+    margin-left: 10rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixth-body-firstbox, .sixth-body-secondbox{
+    height: 25rem;
+    width: 49%;
+    background-color: rgb(139,148,188);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sixth-body-firstbox-info{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-body-firstbox-info .first-para{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    color: rgb(252,226,219);
+    margin-bottom: 3rem;
+}
+.sixth-body-firstbox-info .second-para{
+    line-height: 1.7rem;
+    font-size: 1rem;
+    color: rgb(49,59,103);
+    margin-bottom: 5rem;
+}
+.sixth-body-firstbox-info .third-para{
+    font-size: 4rem;
+    color: rgb(255,97,97);
+}
+
+.sixth-body-secondbox-info{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sixth-body-secondbox-info .first-para{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    color: rgb(252,226,219);
+    margin-bottom: 3rem;
+}
+.sixth-body-secondbox-info .second-para{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: rgb(49,59,103);
+    margin-bottom: 5rem;
+}
+.sixth-body-secondbox-info .third-para{
+    font-size: 4rem;
+    color: rgb(255,97,97);
+}
+
+footer{
+    display: flex;
+width: 100%;
+color: rgb(49,59,103);
+height: 15rem;
+}
+.firstbox,.secondbox,.thirdbox{
+    width:33.33%;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+}
+.firstbox span{
+    margin-top: 2rem;
+margin-bottom: 3rem;
+text-align: left;
+}
+.secondbox span{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.thirdbox span{
+margin-top: 5rem;
+text-decoration: underline;
+font-weight: bolder;
+}
