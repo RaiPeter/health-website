@@ -24,7 +24,7 @@ header img{
     height: 3rem;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 header li{
     list-style-type: none;
@@ -71,8 +71,9 @@ header li{
     flex-direction: column;
     height: 20rem;
     width: 40rem;
-    margin-left: 8.4rem;
-    margin-top: 6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%, -20%);
     z-index: 1;
 color: white;
 }
@@ -417,4 +418,185 @@ text-align: left;
 margin-top: 5rem;
 text-decoration: underline;
 font-weight: bolder;
+}
+
+/* responsive side */
+@media(max-width: 479px) {
+    header{
+        width: 100%;
+    }
+    .nav li{
+        margin-left: 0;
+        padding: 0;
+    }
+    .top-head-info{
+        transform: translate(-50%, 15%);
+        width: 25rem;
+    }
+    .top-head-info .first-text{
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+    .top-head-info .second-text{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .top-head-info .contact{
+        font-size: 1.5rem;
+        height: 2rem;
+        width: 10rem ;
+    }
+
+    .first-body .first-para{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .first-body .second-para{
+        margin-left: 2rem;
+    }
+
+    .second-body-info{
+        width: 90%;
+    }
+    .second-body-info .watch{
+        margin-top: -140px;
+    }
+    .second-body-info svg{
+        height: 6rem;
+        width: 6rem;
+        padding: 0.5rem 0.5rem;
+    
+    }
+    .third-body{
+        height: 15rem;
+    }
+    .third-body-info{
+        width: 90%;
+    }
+    .third-body-info svg{
+        height: 6rem;
+        width: 6rem;
+        padding: 0.5rem 0.5rem;
+    }
+    .third-body-info .man{
+        margin-top: -140px;
+    }
+    .fourth-body-info{
+        width: 90%;
+        flex-direction: column;
+    }
+    .fourth-body-info .first-para{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .fourth-body-info .contact{
+        height: 2rem;
+        width: 8rem;
+}
+.fifth-body{
+    flex-direction: column;
+    height: auto;
+}
+.fifth-body-one{
+    width: 100%;
+}
+.fifth-body-one-info{
+        width: 90%;
+}
+.fifth-body-one-info svg{
+    margin-top: 1rem;
+}
+.fifth-body-one-info .first-para{
+    margin-bottom: 1rem;
+}
+.fifth-body-one-info .second-para{
+    margin-bottom: 1rem;
+}
+.fifth-body-two{
+    width: 100%;
+}
+.fifth-body-two-info{
+        width: 90%;
+}
+.fifth-body-two-info svg{
+    margin-top: 1rem;
+}
+.fifth-body-two-info .first-para{
+    margin-bottom: 1rem;
+}
+.fifth-body-two-info .second-para{
+    margin-bottom: 1rem;
+}
+.fifth-body-three{
+    width: 100%;
+}
+.fifth-body-three-info{
+        width: 90%;
+}
+.fifth-body-three-info svg{
+    margin-top: 1rem;
+}
+.fifth-body-three-info .first-para{
+    margin-bottom: 1rem;
+}
+.fifth-body-three-info .second-para{
+    margin-bottom: 1rem;
+}
+.top-para{
+    margin-left: 2rem;
+    height: auto;
+}
+.sixth-body {
+    height: auto;
+}
+.sixth-body-boxes{
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    flex-direction: column;
+}
+.sixth-body-firstbox, .sixth-body-secondbox{
+    width: 100%;
+}
+.sixth-body-firstbox-info{
+    width: 100%;
+}
+.sixth-body-firstbox-info .first-para{
+    margin-top: 0;
+    margin-bottom: 1.8rem;
+}
+.sixth-body-firstbox-info .second-para{
+    margin-bottom: 3rem;
+}
+.sixth-body-secondbox-info .first-para{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.sixth-body-secondbox-info{
+    width: 100%;
+}
+footer{
+    flex-direction: column;
+}
+.firstbox, .secondbox, .thirdbox{
+    width: 100%;
+    align-items: flex-start;
+}
+.firstbox span{
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.secondbox span{
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    text-align: center;
+
+}
+.thirdbox span{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
 }
